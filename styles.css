@@ -4,7 +4,17 @@ main{
 
 h1{
     color: red;
+    
 }
 h2{
     color: chocolate;
+}
+
+split left{
+    float :right
+}
+
+aside{
+    margin-top: 10px;
+    float:right
 }
