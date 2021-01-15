@@ -2,19 +2,24 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: red;
-    
-}
-h2{
-    color: chocolate;
-}
+
 
 split left{
     float :right
 }
 
 aside{
-    margin-top: 10px;
-    float:right
+    margin-right: 300px;
+    float:right 
+
 }
+
+p{
+    font-size: 12px;
+}
+
+div {
+    width: 300px;
+    margin-left: 300px;
+    
+  }
