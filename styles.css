@@ -10,7 +10,7 @@ split left{
 
 aside{
     margin-right: 300px;
-    float:right 
+    float:right;
 
 }
 
@@ -20,6 +20,7 @@ p{
 
 div {
     width: 300px;
-    margin-left: 300px;
+    margin-left: 100px;
+   
     
   }
