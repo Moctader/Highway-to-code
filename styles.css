@@ -2,18 +2,6 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-split left{
-    float :right
-}
-
-aside{
-    margin-right: 300px;
-    float:right;
-
-}
-
 p{
     font-size: 12px;
 }
@@ -26,18 +14,18 @@ div {
   }
 
   body{
-    background-color:  #f2f2f2;
+    background-color:  #868181;
   }
 
   main{
-     background-color: #ffcccc;
+     background-color: #fdfbfb;
      max-width: 960px;
      margin-left: auto;
      margin-right: auto;
      padding-left: 20px;
      padding-right: 20px;
      padding-top: 10px;
-     padding-bottom: 10px;
+ 
      font-family: Arial, Helvetica, sans-serif;
      border-radius: 10px;
   }
@@ -51,8 +39,28 @@ div {
   }
 
   h2{
-      color:#375F1B
+      color:#375F1B;
   }
   h3{
       color: #1B3409;
+  }
+
+  table {
+
+    background-color: #565755;
+    
+   
+    border-width: 3px;
+    border-style: ridge;
+  }
+
+  th, td {
+    border: 1px solid #1B3409;
+    width: 1px;
+    border-style: dotted;
+    padding: 10px;
+    color: #9BD770;
+    text-align: left;
+    vertical-align: top;
+    border-collapse: separate;
   }
