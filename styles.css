@@ -6,12 +6,7 @@ p{
     font-size: 12px;
 }
 
-div {
-    width: 300px;
-    margin-left: 100px;
-   
-    
-  }
+
 
   body{
     background-color:  #868181;
@@ -25,6 +20,7 @@ div {
      padding-left: 20px;
      padding-right: 20px;
      padding-top: 10px;
+     padding-bottom: 20px;
  
      font-family: Arial, Helvetica, sans-serif;
      border-radius: 10px;
@@ -32,6 +28,10 @@ div {
 
   head{
       font-family: Georgia;
+  }
+
+  h1,h2,h3{
+      font-family: Cambria;
   }
 
   h1{
@@ -48,10 +48,8 @@ div {
   table {
 
     background-color: #565755;
-    
-   
     border-width: 3px;
-    border-style: ridge;
+    border-collapse: separate;
   }
 
   th, td {
@@ -62,5 +60,10 @@ div {
     color: #9BD770;
     text-align: left;
     vertical-align: top;
-    border-collapse: separate;
+    
+  }
+
+  th{
+      background-color: #e4f1f6;
+      color: #092834;
   }
